@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 // const FirstApp = ( props ) => {  console.log(props.hi) }
 // Funtional Component
-const FirstApp = ( { hi = 'hi', subtitle } ) => {
+const FirstApp = ( { hi = 'hi World', subtitle } ) => {
 
     const hello = 'Hello World';
     const objHello = {
@@ -11,7 +11,7 @@ const FirstApp = ( { hi = 'hi', subtitle } ) => {
         color: 'Blue'
     }
 
-    console.log(hi);
+    // console.log(hi);
 
     // return (
     //     <div>

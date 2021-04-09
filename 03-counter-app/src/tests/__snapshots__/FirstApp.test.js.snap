@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component <FirstApp /> should show <FirstApp /> correctly 1`] = `
+<Fragment>
+  <h1>
+     
+    Hello World
+     
+  </h1>
+  <pre>
+    {
+   "name": "Carlos",
+   "color": "Blue"
+}
+  </pre>
+  <h6>
+     
+    1
+    6
+    9
+    10
+     
+  </h6>
+  <p>
+    My first application
+  </p>
+  <p>
+    Hi
+  </p>
+  <p>
+    I am subtitle
+  </p>
+</Fragment>
+`;
+
+exports[`Test component <FirstApp /> should subtitle correctly 1`] = `
+<Fragment>
+  <h1>
+     
+    Hello World
+     
+  </h1>
+  <pre>
+    {
+   "name": "Carlos",
+   "color": "Blue"
+}
+  </pre>
+  <h6>
+     
+    1
+    6
+    9
+    10
+     
+  </h6>
+  <p>
+    My first application
+  </p>
+  <p>
+    Hi
+  </p>
+  <p>
+    I am subtitle
+  </p>
+</Fragment>
+`;

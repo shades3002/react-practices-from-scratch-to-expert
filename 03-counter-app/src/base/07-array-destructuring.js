@@ -6,25 +6,25 @@
  // fn + f2
  const [ goku ] = characters;
 
- console.log( goku );
+ //console.log( goku );
 
  const [ , vegeta ] = characters;
 
- console.log( vegeta );
+ //console.log( vegeta );
 
  const [ , , trunks ] = characters;
 
- console.log( trunks );
+ //console.log( trunks );
 
  /// return array
 
- const arrayReturn = () => {
+ export const arrayReturn = () => {
      return ['ABC', 123]
  }
 
- const [letters, numbers] = arrayReturn();
+ // const [letters, numbers] = arrayReturn();
 
- console.log(letters, numbers);
+ //console.log(letters, numbers);
 
  // task
  const _useState = (value) => {
@@ -33,6 +33,6 @@
 
  const [ name, setName ] = _useState( 'Goku' );
 
-console.log( name );
+//console.log( name );
 
 setName();

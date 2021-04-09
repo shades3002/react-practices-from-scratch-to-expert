@@ -21,21 +21,21 @@ const helloFour = () => `Hello world`;
 
  //console.log(hello('America'));
 
-console.log(helloTwo('Capitan'));
+// console.log(helloTwo('Capitan'));
 
-console.log(helloThree('Iron man'));
+// console.log(helloThree('Iron man'));
 
-console.log(helloFour());
+// console.log(helloFour());
 
 
-const getUser = () => {
+export const getUser = () => {
     return {
         uid: 'ABS22222',
         userName: 'shades3002'
     }
 }
 
-console.log(getUser());
+// console.log(getUser());
 
 
 const getUserTwo = () => ({
@@ -44,27 +44,27 @@ const getUserTwo = () => ({
 });
 
 const user = getUserTwo();
-console.log(user);
+//console.log(user);
 
 // task
 
-function getUserActive (name) {
-    return {
-        uid: 'ABS22222',
-        userName: name
-    }
-};
+// function getUserActive (name) {
+//     return {
+//         uid: 'ABS22222',
+//         userName: name
+//     }
+// };
 
-const userActive = getUserActive('acuaman');
+//const userActive = getUserActive('acuaman');
 
-console.log( userActive );
+//console.log( userActive );
 
 // answer
 
-const userActiveTwo = (name) => ({
+export const getUserActive = (name) => ({
     uid: 'ABS22222',
     userName: name
 });
 
-console.log( userActiveTwo('Carlos') );
+//console.log( userActiveTwo('Carlos') );
 

@@ -8,7 +8,7 @@ describe('02-template-string', () => {
         const hello = getHello(name);
 
         expect( hello ).toBe( 'Hello ' + name );
-    })
+    });
 
     // return Hello Carlos - if there is no argument
     test('should method getHello return Hello Carlos - if there is no argument', () => {
@@ -16,5 +16,5 @@ describe('02-template-string', () => {
         const hello = getHello();
 
         expect( hello ).toBe( 'Hello Carlos' );
-    }) 
+    }); 
 })
