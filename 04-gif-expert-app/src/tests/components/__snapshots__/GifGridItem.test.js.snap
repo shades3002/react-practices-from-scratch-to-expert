@@ -4,7 +4,12 @@ exports[`Test in <GitGridItem /> should display the component correctly 1`] = `
 <div
   className="card animate__animated animate__bounce"
 >
-  <img />
-  <p />
+  <img
+    alt="Goku"
+    src="https://localhost/goku.jpg"
+  />
+  <p>
+    Goku
+  </p>
 </div>
 `;
