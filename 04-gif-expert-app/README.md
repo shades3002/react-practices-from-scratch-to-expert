@@ -18,6 +18,11 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `libraries used for tests`
+1. enzyme [url enzyme](https://enzymejs.github.io/enzyme/) for more information.
+2. enzyme adapter react 17 [url adapter](https://github.com/wojtekmaj/enzyme-adapter-react-17) for more information.
+3. enzyme-to-json [url tojson](https://www.npmjs.com/package/enzyme-to-json) for more information.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
