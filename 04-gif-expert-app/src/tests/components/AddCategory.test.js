@@ -39,5 +39,22 @@ describe('Test <AddCategory />', () => {
 
     });
     
+    test('should call the getCategories and clear the text box', () => {
+        const value = 'Hello world';
+        // simulate input onChange
+        wrapper.find( 'input' ).simulate('change', { target: { value } });
+
+        // simulate Submit
+        wrapper.find( 'form' ).simulate('submit', { preventDefault(){} });
+
+        // setCategories on call
+        expect( setCategories ).toHaveBeenCalled();
+        expect( setCategories ).toHaveBeenCalledTimes(1);
+        expect( setCategories ).toBeCalledWith( expect.any(Function) );
+
+        // Input is empty
+        expect( wrapper.find( 'input' ).prop( 'value' ).trim() ).toBe( '' );
+    });
+    
     
 });
