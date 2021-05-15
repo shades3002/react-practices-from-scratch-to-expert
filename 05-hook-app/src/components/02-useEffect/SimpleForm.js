@@ -61,7 +61,7 @@ export const SimpleForm = () => {
                 />
             </div>
 
-            { name === 'carlos' && <Message /> }
+            { name === '123' && <Message /> }
 
         </>
     )
