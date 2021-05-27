@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CallbackHook } from './components/06-memos/CallbackHook';
+import { Father } from './components/07-memo-task/Father';
 
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
@@ -13,8 +13,9 @@ import { CallbackHook } from './components/06-memos/CallbackHook';
 // import { LayoutEffectExample } from './components/05-useLayoutEffect/LayoutEffectExample';
 // import { Memorize } from './components/06-memos/Memorize';
 // import { MemoHook } from './components/06-memos/MemoHook';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
 
 ReactDOM.render(
-  <CallbackHook />,
+  <Father />,
   document.getElementById('root')
 );
