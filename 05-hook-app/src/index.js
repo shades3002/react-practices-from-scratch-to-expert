@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 
 ReactDOM.render(
-  <TodoApp />,
+  <MainApp />,
   document.getElementById('root')
 );
 
@@ -20,7 +20,8 @@ ReactDOM.render(
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { CallbackHook } from './components/06-memos/CallbackHook';
 // import { Father } from './components/07-memo-task/Father';
-//import './components/08-useReducer/intro-reducer';
+// import './components/08-useReducer/intro-reducer';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
 
 
 
