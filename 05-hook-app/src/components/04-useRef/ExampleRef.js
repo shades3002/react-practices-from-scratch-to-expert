@@ -9,7 +9,7 @@ export const ExampleRef = () => {
     
     return (
         <div>
-            <h1>Exmple Ref</h1>
+            <h1>Example Ref</h1>
             <hr />
 
             { show && <MultipleCustomHooks /> }
