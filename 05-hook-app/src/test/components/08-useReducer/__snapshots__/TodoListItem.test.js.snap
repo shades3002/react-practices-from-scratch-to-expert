@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <TodoListItem /> should show correctly 1`] = `
+<li
+  className="list-group-item w-100"
+>
+  <p
+    className="w-50 false"
+    onClick={[Function]}
+  >
+    1
+    . 
+    test 1
+  </p>
+  <div
+    className="d-grid gap-2 d-md-flex w-50 justify-content-md-start"
+  >
+    <button
+      className="btn btn-danger ms-2"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </div>
+</li>
+`;

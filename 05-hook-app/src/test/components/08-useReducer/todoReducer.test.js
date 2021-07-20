@@ -27,4 +27,27 @@ describe('test in todoReducer', () => {
         expect( state ).toEqual( [...demoTodos, newTodo] );
     });
 
+    test('should the deleted on TODO', () => {
+        const action = { 
+            type: 'delete',  
+            payload: 2
+        };
+        const state = todoReducer(demoTodos, action);
+        expect( state.length ).toBe( 1 );
+        expect( state ).toEqual([demoTodos[0]]);
+    });
+    
+    test('should change Toggle todo', () => {
+        const action = { 
+            type: 'toggle',  
+            payload: 2
+        };
+
+        const state = todoReducer(demoTodos, action);
+        console.log( state );
+        expect( state.length ).toBe( 2 );
+        expect( state[1].done ).toEqual( true );
+        expect( state[0] ).toEqual( demoTodos[0] );
+    });
+
 });
